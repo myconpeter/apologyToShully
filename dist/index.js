@@ -4,10 +4,10 @@ import getLocation from './routes/getLocation.js';
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
-app.use('/api', getLocation);
+app.use('/', getLocation);
 app.get('/', (req, res) => {
     res.json({
-        message: 'Hello World',
+        message: '😭😭😭😭😭😭😭😭😭😭😭',
     }).status(200);
 });
 app.listen(PORT, () => {

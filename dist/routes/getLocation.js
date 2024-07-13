@@ -9,7 +9,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import { Router } from 'express';
 const router = Router();
-router.get('/hello', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.send('hello');
+router.get('/apology', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    res.json({
+        recipient: 'Shully',
+        message: 'I sincerely apologize for my wrong behavior in the #stageThreeBackend Track, Please accept my apologies',
+    });
 }));
 export default router;
