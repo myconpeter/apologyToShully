@@ -12,7 +12,7 @@ const router = Router();
 router.get('/apology', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     res.json({
         recipient: 'Shully',
-        message: 'I sincerely apologize for my wrong behavior in the #stageThreeBackend Track, Please accept my apologies',
+        message: "I sincerely apologize for my inappropriate behavior. It was caused by my phone's autocomplete feature, and I failed to review the message before sending it. I deeply regret any inconvenience this may have caused. Please accept my heartfelt apologies.",
     });
 }));
 export default router;
